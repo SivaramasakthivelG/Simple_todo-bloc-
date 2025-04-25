@@ -1,9 +1,5 @@
 # Tell GitHub that Dart is the main language
-lib/* linguist-language=Dart
+* linguist-vendored
+lib/** linguist-language=Dart
 
-# Optionally, mark native code as vendor
-android/** linguist-vendored
-ios/** linguist-vendored
-macos/** linguist-vendored
-windows/** linguist-vendored
-linux/** linguist-vendored
+
